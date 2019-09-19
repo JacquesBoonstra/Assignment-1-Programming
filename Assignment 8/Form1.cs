@@ -39,7 +39,7 @@ namespace Assignment_8
             string totalPrice1 = totalPrice.ToString();
             lblTotalPrice.Text = ("$" + totalPrice1);
 
-            lblDate.Text = DateTime.Now.ToLongDateString();
+            lblDate.Text = DateTime.Now.ToString("HH:mm:ss dd/MM/yyyy");
 
         }
 
